@@ -1,0 +1,39 @@
+.topmenu {
+  justify-content: center;
+  width: 100%;
+}
+.topmenu li {
+  cursor: pointer !important;
+  padding: 10px;
+}
+
+.single {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.single:hover {
+  transform: scale(1.1);
+}
+
+#poster img {
+  width: 150px;
+  height: 230px;
+}
+
+.pagination {
+  margin: 15px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+  background-color: midnightblue;
+  color: crimson;
+}
+
+.footer h5 {
+  padding: 15px;
+}
